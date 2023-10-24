@@ -3,10 +3,11 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/main/Header";
 import Footer from "./components/main/Footer";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "Moga Charity",
-  description: "Mega Charity Assoaction",
+  description: "Moga Charity Assoaction",
 };
 
 export default function RootLayout({
@@ -17,6 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` container mx-auto  `}>
+        <Toaster position="top-right" />
+
         <Header />
         {children}
         <Footer />

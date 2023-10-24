@@ -5,6 +5,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 function Form() {
   return (
     <div className="flex flex-col gap-3 p-2 shadow sm:my-0 my-6 rounded-lg sm:w-[28rem] w-full">
+      <h2 className="font-semibold text-center">Donation Form</h2>
       <FormInput name="First Name " />
       <FormInput name="Last Name" />
       <FormInput name="Email" />
