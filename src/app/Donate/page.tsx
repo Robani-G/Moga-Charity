@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "../components/Form";
 
-export default function () {
+function Donate() {
   return (
     <main className="min-h-screen  flex justify-center items-center sm:flex-row flex-col gap-6 w-full ">
       <Form />
@@ -18,3 +18,5 @@ export default function () {
     </main>
   );
 }
+
+export default Donate;

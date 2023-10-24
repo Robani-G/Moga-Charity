@@ -53,7 +53,7 @@ const Hero = async () => {
               aliquam vel labore inventore.
             </p>
             <Link
-              href="./Donate"
+              href="../Donate"
               className="bg-black p-2 gap-2 flex items-center justify-center mx-2 text-white font-semibold rounded-full sm:w-[12rem] w-full hover:bg-gray-600"
             >
               Donate {""}
