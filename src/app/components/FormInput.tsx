@@ -7,7 +7,7 @@ function FormInput({ name }: prop) {
   return (
     <input
       placeholder={name}
-      className="outline-none border h-12 p-2 rounded-lg w-[26rem] bg-gray-100 m-2 "
+      className="outline-none border  p-1 sm:h-12 h-9  flex items-center justify-center rounded-lg   bg-gray-100 w-full  "
     />
   );
 }

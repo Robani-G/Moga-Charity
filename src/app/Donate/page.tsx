@@ -3,7 +3,7 @@ import Form from "../components/Form";
 
 function Donate() {
   return (
-    <main className="min-h-screen  flex justify-center items-center sm:flex-row flex-col gap-6 w-full ">
+    <main className="min-h-screen  flex justify-center items-center sm:flex-row flex-col gap-4 w-full ">
       <Form />
       <div>
         <video className="w-full sm:max-w-[42rem]   p-2">
