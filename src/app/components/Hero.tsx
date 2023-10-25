@@ -34,7 +34,7 @@ const Hero = async () => {
       {/* I dont wanna use map function for a single data */}
       <div className="flex flex-col  gap-2 ">
         <div className="flex justify-center items-center ">
-          <p className="sm:text-5xl text-2xl  max-w-[50rem]  font-semibold">
+          <p className="sm:text-5xl text-2xl  max-w-[50rem]  font-bold">
             {data[0].title}
           </p>
         </div>
