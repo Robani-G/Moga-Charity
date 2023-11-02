@@ -28,13 +28,13 @@ async function getData() {
 }
 const Hero = async () => {
   const data = (await getData()) as heroprops[];
-  console.log(data);
+  // console.log(data);
   return (
     <>
       {/* I dont wanna use map function for a single data */}
       <div className="flex flex-col  gap-2 ">
         <div className="flex justify-center items-center ">
-          <p className="sm:text-5xl text-2xl  max-w-[50rem]  font-bold">
+          <p className="sm:text-5xl text-2xl text-cyan-600 max-w-[50rem]  font-bold">
             {data[0].title}
           </p>
         </div>
@@ -56,7 +56,7 @@ const Hero = async () => {
             </p>
             <Link
               href="../Donate"
-              className="bg-black p-2 gap-2 flex items-center justify-center mx-2 text-white font-semibold rounded-full sm:w-[12rem] w-full hover:bg-gray-600"
+              className="bg-cyan-600 p-2 gap-2 flex items-center justify-center mx-2 text-white font-semibold rounded-full sm:w-[12rem] w-full hover:bg-cyan-500"
             >
               Donate {""}
               <AiOutlineHeart className="h-4 w-4" />
