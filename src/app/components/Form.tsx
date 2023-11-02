@@ -11,7 +11,7 @@ function Form() {
       <FormInput name="Email" />
       <FormInput name="Amount" />
 
-      <button className="bg-black  flex items-center justify-center gap-2 h-12  text-white font-semibold rounded-full hover:bg-gray-700  w-full">
+      <button className="bg-blue-500  flex items-center justify-center gap-2 h-12  text-white font-semibold rounded-full hover:bg-gray-700  w-full">
         Donate
         <AiOutlineHeart className="h-4 w-4" />
       </button>

@@ -34,11 +34,11 @@ const Hero = async () => {
       {/* I dont wanna use map function for a single data */}
       <div className="flex flex-col  gap-2 ">
         <div className="flex justify-center items-center ">
-          <p className="sm:text-5xl text-2xl text-cyan-600 max-w-[50rem]  font-bold">
+          <p className="sm:text-5xl text-2xl text-blue-500 max-w-[50rem]  font-bold">
             {data[0].title}
           </p>
         </div>
-        <div className="flex sm:flex-row flex-col sm:mt-14  p-2">
+        <div className="flex sm:flex-row flex-col sm:mt-5  p-2">
           <div className="relative h-96 sm:w-1/2 sm-full rounded-lg">
             <Image
               src={urlFor(data[0].image)}
@@ -56,7 +56,7 @@ const Hero = async () => {
             </p>
             <Link
               href="../Donate"
-              className="bg-cyan-600 p-2 gap-2 flex items-center justify-center mx-2 text-white font-semibold rounded-full sm:w-[12rem] w-full hover:bg-cyan-500"
+              className="bg-blue-500 p-2 gap-2 flex items-center justify-center mx-2 text-white font-semibold rounded-full sm:w-[12rem] w-full hover:bg-cyan-500"
             >
               Donate {""}
               <AiOutlineHeart className="h-4 w-4" />

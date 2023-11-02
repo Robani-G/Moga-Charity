@@ -21,7 +21,7 @@ function Section2() {
               />
             </div>
             <div className="p-4 sm:max-w-[36rem] flex flex-col gap-2 items-center justify-center">
-              <p className="sm:text-2xl text-xl   text-cyan-500  font-semibold">
+              <p className="sm:text-2xl text-xl   text-blue-500  font-semibold">
                 We Are the World's Biggest None Profit Organization
               </p>
               <p className="text-gray-500">
@@ -35,8 +35,8 @@ function Section2() {
                 inventore.
               </p>
               <Link
-                href="../Donate"
-                className="bg-cyan-600 p-2 gap-2 flex items-center justify-center mx-2 text-white font-semibold rounded-full sm:w-[12rem] w-full hover:bg-cyan-500"
+                href="../About"
+                className="bg-blue-500 p-2 gap-2 flex items-center justify-center mx-2 text-white font-semibold rounded-full sm:w-[12rem] w-full hover:bg-blue-400"
               >
                 More Detail{" "}
               </Link>
