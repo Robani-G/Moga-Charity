@@ -1,5 +1,5 @@
 import { IoIosHome } from "react-icons/io";
-import { FaGraduationCap } from "react-icons/Fa";
+import { FaGraduationCap } from "react-icons/fa";
 import { GiHealthCapsule } from "react-icons/gi";
 
 import React from "react";
